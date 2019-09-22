@@ -1,6 +1,6 @@
 function ejercicio4(){
-	var n1=parseInt(prompt("introduzca primer numero:",10));
-	var n2=parseInt(prompt("introduzca segundo numero:",10));
+	var n1=parseInt(prompt("introduzca primer numero:"));
+	var n2=parseInt(prompt("introduzca segundo numero:"));
 	var sum=n1+n2;
 	var res=n1-n2;
 	var mul=n1*n2;
