@@ -20,7 +20,7 @@ function calculateSupply(){
 	let age=prompt("introduzca edad");
 	let amdy=prompt("cantidad por dia");
 	let max=100;
-	let ryu=(max-age)*364*amdy;
+	let ryu=(max-age)*365*amdy;
 	document.write("You will need "+ ryu +" to last you until the ripe old age of "+max);
 }
 function calcCircumfrence(r){
