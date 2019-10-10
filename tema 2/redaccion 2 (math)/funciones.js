@@ -1,10 +1,10 @@
 function ejer1(){
 	document.write("numero aleatorio entre 0 y 1 : "+Math.random());
 	document.write("numero aleatorio entre 100 y 200 : "+Math.random()*100+100);
-	var n1=prompt("primer numero");
-	var n2=prompt("segundo numero");
+	var n1=parseInt(prompt("primer numero:"));
+	var n2=parseInt(prompt("segundo numero:"));
 	if(n2<=n1){
-		var n2=prompt("tiene que ser mayor que "+n1+":");
+		var n2=parseInt(prompt("tiene que ser mayor que "+n1+":"));
 	}
 	document.write("numero aleatorio entre"+ n1 +" y "+ n2 +" : "+Math.random()*(n2-n1)+n1;
 }}
