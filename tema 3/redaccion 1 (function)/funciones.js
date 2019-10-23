@@ -1,6 +1,6 @@
 function ejer1(n1,n2,n3,n4){
 	var ln=[n1,n2,n3,n4];
-	ln.sort(function(a, b){return b-a});
+	ln.sort((a, b) => b - a});
 	console.log(ln[0]);
 }
 function lanzamiento(){
