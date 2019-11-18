@@ -13,15 +13,15 @@ class Baraja{
 			}
 		}
 	}
-	function isFree(crt){
-		if(deck[pl][nm]==0){
+	function isFree(nm,pl){
+		if(deck[pl][nm]){
 			return true;
 		}else{
 			return false;
 		}
 	}
-	function setUsed(crt){
-		deck[pl][nm]=1;
+	function setUsed(nm,pl){
+		deck[pl][nm]=0;
 	}
 	function namecard(pos){
 		return deck[pos].getName();

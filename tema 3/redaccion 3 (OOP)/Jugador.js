@@ -4,7 +4,7 @@ class Jugador{
 	let puntos;
 	constructor(){
 		this.nombre="anno";
-		this.mano=new array(2);
+		this.mano=new array();
 		this.puntos=0;
 		
 	}
@@ -15,8 +15,8 @@ class Jugador{
 	}
 	
 	function addcarta(nm,pl){
-		var cart=
-		mano.push();
+		var cart=new Carta(pl,nm);
+		mano.push(cart);
 	}
 	function point(nm){
 		let pt=0;
@@ -31,5 +31,8 @@ class Jugador{
 	}
 	function getPuntos(){
 		return puntos;
+	}
+	function getName(){
+		return nombre;
 	}
 }
